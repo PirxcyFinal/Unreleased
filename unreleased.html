@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="easyfn,ezfn,fortnite,fortnite bot,fortnite lobbybot,ezfn fortnite bot,easyfn fortnite bot,fortnite skin,cosmetics,fortnite items,fortnite game,fortnite skins,battle royale,fortnite battle royale,epic fortnite,fortnite game,battlepass,fortnite battlepass,fortnite skin changer,skin changer,fortnite hxd">
+    <title>EZFN</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.ezfn.dev/img/Logo.jpg">
+
+    <meta property="og:site_name" content="EZFN.DEV" />
+    <meta property="og:site" content="https://ezfn.dev" />
+    <meta property="og:title" content="EZFN.DEV" />
+    <meta property="og:description" content="Thanks for using EZFN.DEV :)" />
+    <meta property="og:image" content="https://ezfn-dl.tk/EZFN1920x1080.png" />
+    <meta property="og:url" content="https://ezfn.dev" />
+    <meta property="og:type" content="article" />
+    <link rel="stylesheet" href="https://cdn.ezfn.dev/css/cosmetics.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css" />
+
+    <link rel="stylesheet" href="https://youssefraafatnasry.me/portfolYOU/assets/css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
+    <script>
+    </script>
+
+</head>
+
+<style>
+    .instagram {
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
+
+<body class="d-flex flex-column h-100">
+
+    <div class="alert text-center cookiealert" role="alert">
+        <b>Do you like cookies?</b> &#x1F36A; By using our website, you agree that we and certain third-parties may use cookies for analytics, performance and advertising purposes.
+        <button type="button" class="btn btn-primary btn-sm acceptcookies">I Understand</button>
+    </div>
+
+    <main class="flex-shrink-0 container mt-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="https://ezfn.dev">
+                <h5><b>EZFN</b>.dev</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link " onclick="" href="https://ezfn.dev/private_server">Private Server</a>
+                    <a class="nav-item nav-link " onclick="" href="https://ezfn.dev/public_bots">Public Bots</a>
+                    <a class="nav-item nav-link active" onclick="" href="https://ezfn.dev/cosmetics">Cosmetics</a>
+                    <a class="nav-item nav-link " onclick="" href="https://ezfn.dev?login=true">Login</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="row justify-content-center align-items-center p-4"><span id="found_cosmetics"></span></div>
+        <div class="card-columns m-3 mt-5" id="results-container"></div>
+        <div class="row justify-content-center align-items-center p-4" id="load_more"></div>
+
+    </main>
+
+    <footer class="mt-auto py-3 text-center">
+        <small class="text-muted mb-2">
+<i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+by <strong>EZFN.DEV</strong>
+</small>
+        <div class="container-fluid justify-content-center">
+            <a class="social mx-1" target="_blank" href="https://www.twitter.com/@lupusleaks" style="color: rgb(108, 117, 125);" onmouseover="this.style.color='#1da1f2'" onmouseout="this.style.color='#6c757d'">
+<i class="fab fa-twitter fa-1x"></i>
+</a>
+            <a class="social mx-1" target="_blank" href="https://github.com/EZFNDEV" style="color: rgb(108, 117, 125);" onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
+<i class="fab fa-github fa-1x"></i>
+</a>
+            <a class="social mx-1" target="_blank" href="https://youtube.com/lupusleaks" style="color: rgb(108, 117, 125);" onmouseover="this.style.color='#FF0000'" onmouseout="this.style.color='#6c757d'">
+<i class="fab fa-youtube fa-1x"></i>
+</a>
+            <a class="social mx-1" target="_blank" href="https://ezfn.dev/discord" style="color: rgb(108, 117, 125);" onmouseover="this.style.color='#7289DA'" onmouseout="this.style.color='#6c757d'">
+<i class="fab fa-discord fa-1x"></i>
+</a>
+            <a class="social mx-1" target="_blank" href="https://instagram.com/lupusleaks" style="color: #6c757d" onmouseover="document.getElementById('instagram').classList.add('instagram');" onmouseout="document.getElementById('instagram').classList.remove('instagram');">
+<i class="fab fa-instagram fa-1x" id="instagram"></i>
+</a>
+        </div>
+        <div class="topnav-centered">
+            <div class="row">
+                <div class="col">
+                    <a href="https://ezfn.dev/legal" class="nav-link">Legal/Terms</a>
+                </div>
+            </div>
+        </div>
+        <div>This project is not Affiliated, Associated, Authorized, Endorsed by, or in any way officially connected with EpicGames</div>
+    </footer>
+
+
+
+    <script src="https://hcaptcha.com/1/api.js"></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdn.ezfn.net/js/bootstrap-notify.min.js"></script>
+
+    <script src="https://cdn.ezfn.net/js/popper.min.js"></script>
+
+    <script src="https://cdn.ezfn.net/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+    <script src="https://cdn.ezfn.net/admin website/js/cookiealert.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://cdn.ezfn.dev/js/unreleased_cosmetics.js"></script>
+
+    <script>
+        $(function() {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+</body>
+
+</html>
